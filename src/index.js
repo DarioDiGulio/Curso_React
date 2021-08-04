@@ -6,7 +6,7 @@ import reportWebVitals from './reportWebVitals';
 const propsApp = {
   name: "Sebastián",
   age: "30",
-  nacionalidad: "Argentina"
+  nacionalidad: "Mexicano"
 }
 
 
