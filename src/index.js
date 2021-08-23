@@ -3,16 +3,17 @@ import ReactDOM from 'react-dom';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-const propsApp = {
+const propsApp = { //A donde va este propsApp?
   name: "Sebastián",
   age: "30",
-  nacionalidad: "Mexicano"
+  nacionalidad: "Mexicano",
+  talleZapato: "43"
 }
-
+//Estos atributos tengo que invocarlos con los nombres exactos
 
 ReactDOM.render(
   <React.StrictMode>
-    <App propiedades={propsApp} />
+    <App userData={propsApp} /> 
   </React.StrictMode>,
   document.getElementById('root')
 );
