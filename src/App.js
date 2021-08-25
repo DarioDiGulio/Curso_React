@@ -9,6 +9,8 @@ function App({userData}) { //puede recibir mas atributos/parametros
 
   // const userAge = userData.age
   // const userName = userData.name
+  // const userNacionalidad = userData.nacionalidad
+  // const userTalleZapato = userData.talleZapato
 
 
     //como si fuera un Constructor  Nombre
