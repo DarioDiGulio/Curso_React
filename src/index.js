@@ -3,17 +3,36 @@ import ReactDOM from 'react-dom';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-const propsApp = { //A donde va este propsApp?
+
+//TODO Crear otro user
+const usersData = { //A donde va este usersData?
   name: "Sebastián",
   age: "30",
   nacionalidad: "Mexicano",
   talleZapato: "43"
 }
+
+// const usersData = [
+//   userOne: {
+//     name: "Sebastián",
+//     age: "30",
+//     nacionalidad: "Mexicano",
+//     talleZapato: "43",
+//     avatar: "pelado",
+//   }, 
+//   userTwo: {
+//     name: "Sebastián",
+//     age: "30",
+//     nacionalidad: "Mexicano",
+//     talleZapato: "43",
+//     avatar: "peludo"
+//   }
+// ]
 //Estos atributos tengo que invocarlos con los nombres exactos
 
 ReactDOM.render(
   <React.StrictMode>
-    <App userData={propsApp} /> 
+    <App userData={usersData} /> 
   </React.StrictMode>,
   document.getElementById('root')
 );
